@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/heartcombo/simple_form.git
+  revision: 08fb6ea095a0db5823c672d991609418a700308f
+  specs:
+    simple_form (5.2.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -212,6 +220,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.2)
   rails-controller-testing
   rspec-rails
+  simple_form!
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
