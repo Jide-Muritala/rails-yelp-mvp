@@ -4,7 +4,9 @@
   <div class="container">
     <ul>
       <% @restaurants.each do |restaurant| %>
-        <li><%= restaurant.name %></li>
+        <p>
+          <%= link_to restaurant.name, restaurant %>
+        </p>
       <% end %>
     </ul>
   </div>
