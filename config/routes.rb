@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'reviews/new'
   get 'review/new'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
